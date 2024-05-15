@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body class="pt-sans-narrow-regular">
+
+    <!-- Section-1 Start -->
+    <div class="section-1 text-white pb-[30px] xs:pt-[50px] xs:px-[10vw] xmd:px-0">
+
+        <!-- Header Start -->
+        <div class="px-5 py-3 flex justify-between items-center relative xmd:justify-evenly">
+            <div class="flex flex-col justify-center items-start">
+                <h1 class="text-4xl x:text-5xl">The Venue</h1>
+                <h4 class="text-[13px] tracking-[0.5rem] x:tracking-[0.65rem] x:text-[16px]">RESTAURANT</h4>
+            </div>
+            <div class="menu-icon w-[40px] h-[40px] flex items-center justify-center hover:bg-white rounded-full hover:text-black xmd:hidden">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+
+            <div class="hidden xmd:block xmd:mx-10">
+                <ul class="flex justify-center items-center gap-8 text-sm font-normal tracking-widest lg:font-semibold lg:tracking-[0.2rem]">
+                    <li><a href="#home" class="text-[#AD8D7E] duration-300 cursor-default">HOME</a></li>
+                    <li><a href="#about_us" class=" hover:text-[#AD8D7E] duration-300 cursor-default">ABOUT US</a></li>
+                    <li><a href="#menu" class=" hover:text-[#AD8D7E] duration-300 cursor-default">MENU</a></li>
+                    <li><a href="#delivery" class=" hover:text-[#AD8D7E] duration-300 cursor-default">DELIVERY</a></li>
+                    <li><a href="#blog" class=" hover:text-[#AD8D7E] duration-300 cursor-default">BLOG</a></li>
+                    <li><a href="#contact" class=" hover:text-[#AD8D7E] duration-300 cursor-default">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="border border-white px-3 py-3 hidden xmd:block">
+                <p>Reservations: +34 586 778 8892</p>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Menu start -->
+        <div class="menu px-5 py-5 h-full w-full absolute top-0 left-0 bg-white text-black xs:h-[110vh] xs:pt-[70px] xs:px-[15vh]">
+            <div class="flex justify-between items-center">
+                <h1 class="text-3xl font-bold font-serif">Menu</h1>
+                <div class="w-[40px] h-[40px] flex items-center justify-center hover:bg-black rounded-full hover:text-white">
+                    <i class="cross-icon fa-solid fa-xmark fa-2xl"></i>
+                </div>
+            </div>
+            <div class="mb-[50px]">
+                <ul class="mt-[100px] flex flex-col justify-center items-center gap-3 text-2xl tracking-wide font-bold">
+                    <li><a href="#home" class="text-[#AD8D7E] duration-300 cursor-default">HOME</a></li>
+                    <li><a href="#about_us" class=" hover:text-[#AD8D7E] duration-300 cursor-default">ABOUT US</a></li>
+                    <li><a href="#menu" class=" hover:text-[#AD8D7E] duration-300 cursor-default">MENU</a></li>
+                    <li><a href="#delivery" class=" hover:text-[#AD8D7E] duration-300 cursor-default">DELIVERY</a></li>
+                    <li><a href="#blog" class=" hover:text-[#AD8D7E] duration-300 cursor-default">BLOG</a></li>
+                    <li><a href="#contact" class=" hover:text-[#AD8D7E] duration-300 cursor-default">CONTACT</a></li>
+                </ul>
+            </div>
+            <hr  class="border-0.5 border-black">
+            <div class="w-full my-[25px]">
+                <ul class="flex justify-evenly text-2xl">
+                    <li class="hover:bg-black hover:text-white h-[50px] w-[50px] flex justify-center items-center rounded-full">
+                        <a href="#facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="hover:bg-black hover:text-white h-[50px] w-[50px] flex justify-center items-center rounded-full">
+                        <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="hover:bg-black hover:text-white h-[50px] w-[50px] flex justify-center items-center rounded-full">
+                        <a href="#whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                    <li class="hover:bg-black hover:text-white h-[50px] w-[50px] flex justify-center items-center rounded-full">
+                        <a href="#contact-no"><i class="fa-solid fa-phone fa-sm"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="border-0.5 border-black">
+        </div>
+        <!-- Menu End -->
+
+        <!-- Description Start -->
+        <div class="px-5 py-3 flex flex-col items-center text-center mt-[80px] xs:mt-[200px] xmd:mx-[15vh]">
+            <h1 class="great-vibes-regular text-[#AD8D7E] font-extrabold text-2xl xs:text-5xl xmd:text-6xl">The Venue is</h1>
+            <h1 class="text-3xl font-semibold my-3 xs:text-5xl xs:mt-5 xmd:text-7xl xmd:font-light xmd:tracking-tighter xmd:mt-3">An Extraordinery Experience</h1>
+            <p class="text-sm font-serif tracking-tight xs:mt-7 xmd:mx-[30vh]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+        </div>
+        <!-- Description End -->
+
+        <!-- Arrow Start -->
+        <div class="down mt-[50px] flex justify-center items-center xs:mt-[150px]">
+            <a href="#footer" class="h-[50px] w-[50px] flex justify-center items-center bg-white rounded-full text-black">
+                <i class="fa-solid fa-angles-down fa-bounce fa-xl"></i>
+            </a>
+        </div>
+        <!-- Arrow End -->
+
+    </div>
+    <!-- Section-1 End -->
+
+    <!-- Section-2 Start -->
+    <div class="x:flex x:px-[5%]">
+        <div class="w-full flex justify-center my-[100px] xmd:order-2">
+            <div class="h-auto w-[400px] xs:w-[500px] border border-[#B49383] py-10 px-5 shadow-2xl xs:px-10 xs:py-[70px] m:w-[93%] xmd:max-w-[930px] x:absolute x:z-10 x:bg-white x:w-[40vw] x:right-[100px] x:py-[10vh] x:mt-[18vh] ">
+                <h1 class="great-vibes-regular text-2xl text-[#B49383] xs:text-4xl">Something new</h1>
+                <h1 class="text-4xl xs:text-5xl">An Extraordinery Experience</h1>
+                <p class="mt-10 text-md leading-6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Ut non justo eleifend, facilisis nibh ut, interdum odio. Suspendisse potenti. Vivamus luctus diam eu neque rutrum, vitae aliquet dolor venenatis. Nulla consequat fringilla massa.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-col items-center gap-8 mb-[100px] m:flex-row m:justify-center xmd:flex xmd:justify-center xmd:px-5 xmd:max-w-full x:order-1 x:relative x:h-[90vh]
+        x:w-[200vw] x:my-[100px]">
+            <img src="assets/images/intro_1.jpg.webp" class="w-[400px] xs:w-[500px] m:max-w-[45%] xmd:w-[450px] x:h-full object-cover" alt="">
+            <img src="assets/images/intro_2.jpg.webp" class="w-[400px] xs:w-[500px] m:max-w-[45%] xmd:w-[450px] x:h-full object-cover" alt="">
+        </div>
+    </div>
+    <!-- Section-2 End -->
+
+    <!-- Section-3 Start -->
+    <div class="video h-[80vh] mb-[100px] flex justify-center items-center text-white">
+        <div class="flex flex-col items-center gap-6">
+            <h1 class="text-4xl tracking-widestng- xs:text-7xl">Food for the soul</h1>
+            <div class="h-[60px] w-[60px] rounded-full border-2 border-white flex justify-center items-center hover:bg-white hover:text-black duration-300">
+                <i class="fa-solid fa-play fa-lg"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Section-3 End -->
+
+    <!-- Section-4 Start -->
+    <div class="w-full flex flex-col justify-center items-center my-[100px] m:px-[10vh] xmd:flex-row xmd:px-[5vh] xmd:justify-end x:px-[15vh]">
+        <div class="h-auto mb-[80px] w-[400px] xs:w-[500px] border border-[#B49383] py-5 px-5 shadow-2xl xs:px-10 xs:py-[70px] m:w-[93%] xmd:w-[60vw] xmd:absolute xmd:z-10 xmd:bg-white xmd:left-10 x:w-[50%] x:left-[15vh] xmd:mt-[11vh] xmd:py-[100px] xmd:px-[50px]">
+            <h1 class="great-vibes-regular text-2xl text-[#B49383] xs:text-4xl">Something new</h1>
+            <h1 class="text-4xl xs:text-5xl">Our Signature Dish</h1>
+            <p class="text-sm mt-5"><i class="fa-solid fa-star" style="color: #b49383;"></i><i class="fa-solid fa-star" style="color: #b49383;"></i><i class="fa-solid fa-star" style="color: #b49383;"></i><i class="fa-solid fa-star" style="color: #b49383;"></i><i class="fa-solid fa-star" style="color: #b49383;"></i></p>
+            <div class="flex justify-between items-center">
+                <div class="mt-3 flex flex-col gap-2">
+                    <p class="text-lg tracking-tighter">Pork Tenderloin marinated in Green Pepper</p>
+                    <p>Pork / Tenderloin / Green Pepper / Veggies</p>
+                </div>
+                <div class="text-xl m:me-[10vh] m:text-3xl xmd:me-0">$20</div>
+            </div>
+            <button class="border-2 border-[#B49383] text-[#B49383] py-3 px-[60px] mt-8 hover:bg-[#B49383] hover:text-white duration-300">Order Now</button>
+        </div>
+
+        <div class="w-[400px] xs:w-[500px] m:w-[93%] xmd:relative xmd:w-[50%] xmd:h-[90vh] x:w-[60%]">
+            <img class="h-full w-full object-cover" src="assets/images/sig.jpg.webp" alt="">
+        </div>
+    </div>
+    <!-- Section-4 End -->
+
+    <!-- Section-5 Start -->
+    <div class="flex flex-col justify-center items-center w-full gap-[10vh] xmd:flex-row xmd:gap-0 xmd:items-start cursor-default xmd:px-[5vh] x:px-[15vh] mb-[100px]">
+        <div class="flex flex-col justify-center items-start gap-6 border mx-[3vh] px-[5vh] py-[7vh] w-[400px] xs:w-[500px] m:w-[700px] xmd:mx-4 xmd:max-w-[415px]">
+            <h1 class="text-[#B49383] text-4xl border border-[#B49383] px-6 py-2 mb-[4vh]">Starters</h1>
+            <ul>
+                <li class="text-xl">Pork Tenderloin in Green Pepper</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Shrimp with Garlic</li>
+                <li class="font-medium text-xl">$17</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Wild Mushroom with Chicken</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Oysters with Baked Potatoes</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Roast Pork</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+        </div>
+
+        <div class="flex flex-col justify-center items-start gap-6 border mx-[3vh] px-[5vh] py-[7vh] w-[400px] xs:w-[500px] m:w-[700px] xmd:mx-4 xmd:max-w-[415px]">
+            <h1 class="text-[#B49383] text-4xl border border-[#B49383] px-6 py-2 mb-[4vh]">Main</h1>
+            <ul>
+                <li class="text-xl">Chicken with Lemon</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Pork Tenderloin in Green Pepper</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Shrimp with Garlic</li>
+                <li class="font-medium text-xl">$17</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Wild Mushroom with Chicken</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Oysters with Baked Potatoes</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Roast Pork</li>
+                <li class="font-medium text-xl">$17</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+        </div>
+        
+        <div class="flex flex-col justify-center items-start gap-6 border mx-[3vh] px-[5vh] py-[7vh] w-[400px] xs:w-[500px] m:w-[700px] xmd:mx-4 xmd:max-w-[415px]">
+            <h1 class="text-[#B49383] text-4xl border border-[#B49383] px-6 py-2 mb-[4vh]">Deserts</h1>
+            <ul>
+                <li class="text-xl">Lava Cake</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Orange Tart</li>
+                <li class="font-medium text-xl">$17</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Cheese Cake</li>
+                <li class="font-medium text-xl">$20</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Chocolatte Mausse</li>
+                <li class="font-medium text-xl">$17</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+
+            <ul>
+                <li class="text-xl">Ice Cream</li>
+                <li class="font-medium text-xl">$17</li>
+                <li class="text-[#636363] text-sm mb-[2vh]">Pork / Tenderloin / Green Pepper</li>
+                <li class="underline-animation text-[#B49383] text-[18px]">Order Now</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Section-5 End -->
+
+    <!-- Section-6 Start -->
+    <div class="">
+        <div class="bg-[url(assets\images\reservations.jpg.webp)] py-[15vh] bg-fixed bg-cover bg-center flex flex-col justify-center items-center">
+            <h1 class="great-vibes-regular text-2xl text-[#B49383] xs:text-4xl">5 Stars</h1>
+            <h1 class="text-4xl xs:text-5xl text-white mb-[5vh]">Make A Reservation</h1>
+            <div class="flex flex-col gap-5 xs:flex-row">
+                <input type="text" value="5/15/2024" class="text-start text-md bg-transparent text-white border-2 border-[#B49383] h-[9vh] w-[90vw] px-10 xs:w-[30vw] m:w-[230px]">
+                <input type="text" value="11:00 AM" class="text-start text-md bg-transparent text-white border-2 border-[#B49383] h-[9vh] w-[90vw] px-10 xs:w-[30vw] m:w-[230px]">
+                <input type="text" value="2 Person" class="text-start text-md bg-transparent text-white border-2 border-[#B49383] h-[9vh] w-[90vw] px-10 xs:w-[30vw] m:w-[230px]">      
+            </div>
+            <button class="text-white bg-[#B49383] py-4 mt-10 w-[40vw] m:w-[400px] hover:bg-transparent hover:border hover:border-[#B49383] hover:text-[#B49383] duration-300">Make A Reservation</button>
+        </div> 
+    </div>
+    <!-- Section-6 End -->
+
+    <!-- Section-7 Start -->
+    <div id="footer" class="bg-[#232323] px-[3vh] py-[10vh] flex flex-col justify-center items-center">
+        <div class="max-w-[550px] m:w-[90vw] xmd:flex xmd:flex-row xmd:gap-8 xmd:justify-between xmd:items-start m:max-w-[700px] xmd:max-w-[900px] x:max-w-[1100px] xl:max-w-[1200px]">
+            <div class="text-white xmd:w-[25vw]">
+                <div class="flex flex-col justify-center items-start">
+                    <h1 class="text-4xl xs:text-5xl">The Venue</h1>
+                    <h4 class="text-[13px] tracking-[0.5rem] xs:tracking-[0.65rem] xs:text-[16px]">RESTAURANT</h4>
+                </div>
+                <p class="my-5 text-[#4D4D4D] xmd:my-0">Copyright ©2024 All rights reserved | This template is made by Kamal</p>
+            </div>
+
+            <div class="text-[#9C9B9B] my-[10vh] xmd:w-[45vw] xmd:my-0">
+                <p class="leading-7">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Ut non justo eleifend, facilisis nibh ut, interdum odio.
+                </p>
+            </div>
+
+            <div class="text-white xmd:w-[30vw]">
+                <ul class="flex flex-col gap-5">
+                    <li class="flex items-center">
+                        <h1 class="bg-[#B49383] py-[2px] px-5 me-5 xmd:text-sm xmd:py-[1px] xmd:px-3 xmd:me-3">Address :</h1>
+                        <p class="xmd:text-[12px]">481 Creekside Lane Avila CA 93424</p>
+                    </li>
+                    
+                    <li class="flex items-center">
+                        <h1 class="bg-[#B49383] py-[2px] px-5 me-5 xmd:text-sm xmd:py-[1px] xmd:px-3 xmd:me-3">Phone(O)</h1>
+                        <p class="xmd:text-[12px]">+53 345 7953 32453</p>
+                    </li>
+
+                    <li class="flex items-center">
+                        <h1 class="bg-[#B49383] py-[2px] px-5 me-5 xmd:text-sm xmd:py-[1px] xmd:px-3 xmd:me-3">Email Id :</h1>
+                        <p class="xmd:text-[12px]">yourmail@gmail</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Section-7 End -->
+</body>
+</html>
+
+<script>
+    $(document).ready(function(){
+        $(".menu").hide();
+        $(".menu-icon").click(function(){
+            $(".menu").fadeIn();
+            $(".down").hide();
+        });
+
+        $(".cross-icon").click(function(){
+            $(".menu").fadeOut();
+            $(".down").show();
+        });
+
+    });
+</script>
