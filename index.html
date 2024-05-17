@@ -104,7 +104,7 @@
         <!-- Description End -->
 
         <!-- Arrow Start -->
-        <div class="down mt-[50px] flex justify-center items-center xs:mt-[150px]">
+        <div class="smooth down mt-[50px] flex justify-center items-center xs:mt-[150px]">
             <a href="#footer" class="h-[50px] w-[50px] flex justify-center items-center bg-white rounded-full text-black">
                 <i class="fa-solid fa-angles-down fa-bounce fa-xl"></i>
             </a>
@@ -302,7 +302,7 @@
                 <input type="text" value="11:00 AM" class="text-start text-md bg-transparent text-white border-2 border-[#B49383] h-[9vh] w-[90vw] px-10 xs:w-[30vw] m:w-[230px]">
                 <input type="text" value="2 Person" class="text-start text-md bg-transparent text-white border-2 border-[#B49383] h-[9vh] w-[90vw] px-10 xs:w-[30vw] m:w-[230px]">      
             </div>
-            <button class="text-white bg-[#B49383] py-4 mt-10 w-[40vw] m:w-[400px] hover:bg-transparent hover:border hover:border-[#B49383] hover:text-[#B49383] duration-300">Make A Reservation</button>
+            <button class="text-white bg-[#B49383] py-4 mt-10 w-[40vw] m:w-[400px] hover:bg-transparent border border-[#B49383] hover:text-[#B49383] duration-300">Make A Reservation</button>
         </div> 
     </div>
     <!-- Section-6 End -->
@@ -362,4 +362,11 @@
         });
 
     });
+</script>
+
+<script>
+    function scrollToElement(id) {
+        var element = document.getElementById(id);
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
 </script>

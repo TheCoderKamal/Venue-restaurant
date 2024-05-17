@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+ html,
+ body {
+     scroll-behavior: smooth;
+ }
 
 .great-vibes-regular {
     font-family: "Great Vibes", cursive;
@@ -54,4 +58,8 @@
 
 .underline-animation:hover::after {
     width: 100%;
+}
+
+.smooth{
+    transition: 0.3s;
 }
