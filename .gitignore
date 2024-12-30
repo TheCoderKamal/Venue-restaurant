@@ -1,0 +1,13 @@
+# Temporary files
+*.tmp
+*.log
+
+# Python specific files
+__pycache__/
+*.pyc
+
+# Node.js files
+node_modules/
+
+# Secret keys
+.env
